@@ -1,0 +1,8 @@
+MariaDB [(none)]> CREATE DATABASES db211402032;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATABASES db211402032' at line 1
+MariaDB [(none)]> tee 211402032.log
+MariaDB [(none)]> CREATE DATABASE dbtask_manager;
+ERROR 1007 (HY000): Can't create database 'dbtask_manager'; database exists
+MariaDB [(none)]> CREATE DATABASE dbUAS_SBD;
+Query OK, 1 row affected (0.005 sec)
+
